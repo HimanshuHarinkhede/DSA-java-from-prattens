@@ -2,13 +2,15 @@ import java.util.*;
 
 public class Pattern{
     public static void main(String[]args){
+      //HollowRetangle(5,5);
+      //inverted_and_rotated_Half_Pyramid(4);
       //inverted_pyramid_withNum(47);
       //flyoed_triangle(5);
       //Triangle_01(5);
       //Buterfly_pattern(3);
       //Solid_rhombus(555);
       //hollow_rhombus(5);
-      daimond(60);
+      daimond(6);
     }
 
 public static void HollowRetangle(int r, int c){
@@ -42,6 +44,7 @@ public static void inverted_and_rotated_Half_Pyramid(int n){
         System.out.println();
     }
 }
+
 
 public static void inverted_pyramid_withNum(int n){
     for(int i=1; i<=n; i++){
